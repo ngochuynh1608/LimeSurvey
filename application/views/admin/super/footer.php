@@ -68,7 +68,7 @@ foreach($systemInfos as $key=>$systemInfo) {
 
             <!-- Lime survey website -->
             <div class="col-xs-12 col-sm-4 text-right">
-                <a  title='<?php eT("Visit our website!"); ?>' href='http://bitlearn.vn' target='_blank'>LimeSurvey</a><br />
+                <a  title='<?php eT("Visit our website!"); ?>' href='http://bitlearn.vn' target='_blank'>Bitlearn Survey</a><br />
                 <?php if(Permission::model()->hasGlobalPermission('superadmin','read')) { ?> 
                     <a href="#modalSystemInformation" data-toggle="modal" title="<?=gT("Get system information")?>"> 
                 <?php } ?>
