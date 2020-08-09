@@ -53,7 +53,7 @@ foreach($systemInfos as $key=>$systemInfo) {
         <div class="row">
             <!-- Link to manual -->
             <div class="col-xs-6 col-sm-4 ">
-                <a href='http://manual.limesurvey.org' onclick='function go(ev) { ev.preventDefault(); var win = window.open("http://manual.limesurvey.org", "_blank"); win.focus(); }; go(event);'>
+                <a href='http://bitlearn.vn' onclick='function go(ev) { ev.preventDefault(); var win = window.open("http://bitlearn.vn", "_blank"); win.focus(); }; go(event);'>
                     <span class="fa fa-question-circle" id="info-footer"></span>
 		    <span class="sr-only"><?php eT('Limesurvey online manual'); ?></span>
                 </a>
@@ -61,14 +61,14 @@ foreach($systemInfos as $key=>$systemInfo) {
 
             <!-- Support / Donate -->
             <div  class="col-xs-6 col-sm-4 text-center"  >
-                <a href='http://donate.limesurvey.org' target="_blank">
+                <a href='http://bitlearn.vn' target="_blank">
                     <img alt='<?php printf(gT("Support this project - Donate to %s!"),'LimeSurvey'); ?>' title='<?php printf(gT("Support this project - Donate to %s!"),'LimeSurvey'); ?>' src='<?php echo Yii::app()->getConfig('adminimageurl');?>donate.png'/>
                 </a>
             </div>
 
             <!-- Lime survey website -->
             <div class="col-xs-12 col-sm-4 text-right">
-                <a  title='<?php eT("Visit our website!"); ?>' href='https://www.limesurvey.org' target='_blank'>LimeSurvey</a><br />
+                <a  title='<?php eT("Visit our website!"); ?>' href='http://bitlearn.vn' target='_blank'>LimeSurvey</a><br />
                 <?php if(Permission::model()->hasGlobalPermission('superadmin','read')) { ?> 
                     <a href="#modalSystemInformation" data-toggle="modal" title="<?=gT("Get system information")?>"> 
                 <?php } ?>
