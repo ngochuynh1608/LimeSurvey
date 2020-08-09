@@ -20,7 +20,7 @@
 {% extends "./subviews/content/submit.twig" %}
 {% block endtext %}
     <div class="alert alert-warning"><strong class="h4 text-danger">{{ gT("Did Not Save") }} </strong>
-        {{ gT("Your survey responses have not been recorded. This survey is not yet active.") }}
+        {{ gT("This survey is not yet active. Your response cannot be saved") }}
     </div>
     {{ parent() }}
 {% endblock %}
